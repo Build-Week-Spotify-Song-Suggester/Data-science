@@ -1,4 +1,6 @@
+astroid==2.2.5
 attrs==19.1.0
+autopep8==1.4.4
 backcall==0.1.0
 bleach==3.1.0
 certifi==2019.9.11
@@ -7,11 +9,13 @@ decorator==4.4.0
 defusedxml==0.5.0
 entrypoints==0.3
 Flask==1.1.1
+Flask-Cors==3.0.8
 gunicorn==19.9.0
 ipykernel==5.1.2
 ipython==7.8.0
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
+isort==4.3.21
 itsdangerous==1.1.0
 jedi==0.15.1
 Jinja2==2.10.1
@@ -20,7 +24,9 @@ jsonschema==3.0.2
 jupyter-client==5.3.1
 jupyter-console==6.0.0
 jupyter-core==4.4.0
+lazy-object-proxy==1.4.2
 MarkupSafe==1.1.1
+mccabe==0.6.1
 mistune==0.8.4
 nbconvert==5.6.0
 nbformat==4.4.0
@@ -34,7 +40,9 @@ pickleshare==0.7.5
 prometheus-client==0.7.1
 prompt-toolkit==2.0.9
 ptyprocess==0.6.0
+pycodestyle==2.5.0
 Pygments==2.4.2
+pylint==2.3.1
 pyrsistent==0.15.4
 python-dateutil==2.8.0
 pytz==2019.2
@@ -52,3 +60,4 @@ wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==0.16.0
 widgetsnbextension==3.5.1
+wrapt==1.11.2

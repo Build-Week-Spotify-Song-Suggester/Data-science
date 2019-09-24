@@ -130,3 +130,7 @@ ENV/
 env.bak/
 venv.bak/
 */.env
+
+# Ignore data folder as size is above Github limit
+data/processed_df*
+data/spotify_dataset_recommendations/*
