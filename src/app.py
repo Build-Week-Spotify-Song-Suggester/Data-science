@@ -14,4 +14,11 @@ def create_app():
     """Create and configure and instance of flask application."""
     app = Flask(__name__)
     CORS(app)
-    return app
+    
+    @app.route("/api", methods=['POST'])  
+    def api():
+        
+        data_in = request.get_json(force=True)
+        
+        try:
+            

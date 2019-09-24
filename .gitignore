@@ -134,3 +134,4 @@ venv.bak/
 # Ignore data folder as size is above Github limit
 data/processed_df*
 data/spotify_dataset_recommendations/*
+data/db.sqlite3
