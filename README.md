@@ -13,5 +13,5 @@
 
 ## Logs
 
-2019-09-21 - Started explanatory notebooks
-2019-09-23 - Re-structured and organized folders, and files
+- 2019-09-21 - Started explanatory notebooks
+- 2019-09-23 - Re-structured and organized folders, and files
