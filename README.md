@@ -23,3 +23,6 @@ For the Data Science portion of this application, we used this Kaggle [Spotify A
 Pull requests are welcome. However for major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
