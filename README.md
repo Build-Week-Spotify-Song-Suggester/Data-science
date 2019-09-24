@@ -1,5 +1,5 @@
 # Data Science - Spotifier
-
+This is the Data Science portion for an Application that uses Machine Learning to build a Song Recommender based on a User's song selection and music preference.
 
 ## Flowchart
 
