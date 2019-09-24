@@ -21,6 +21,8 @@ Do a POST request with:
 {"Searched_Song":"2RM4jf1Xa9zPgMGRDiht8O"}
 ```
 
+Where `"Searched_Song"` is the `Track Id`, and returns `Track Ids` of 10 similar songs.
+
 Returns
 
 ```
