@@ -1,1 +1,1 @@
-web: gunicorn src:APP -t 120
+web: gunicorn src:APP
