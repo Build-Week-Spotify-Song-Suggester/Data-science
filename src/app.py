@@ -8,7 +8,7 @@ from flask_cors import CORS
 import sqlite3
 import os
 
-DB_FILE = 'db.sqlite3'
+DB_FILE = 'db/db.sqlite3'
 
 
 def create_app():
@@ -73,6 +73,10 @@ def create_app():
             print(df.head())
         return df
 
+    @app.route('/')
+    def index():
+        return "Spotifier Recommender API is Working"
+
     @app.route('/api', methods=['POST'])
     def api():
 
@@ -93,11 +97,12 @@ def create_app():
                 track_id)
 
             similar_songs = select_query(conn, query)
+            similar_songs_dict = similar_songs.to_dict(orient='records')[0]
 
-            return jsonify(similar_songs.to_dict(orient='records')[0])
+            return jsonify(similar_songs_dict)
 
         except Exception as e:
             print(e)
-            return f"Can't find the {track_id}"
+            return f"Can't find the track id of Searched_Song {data_in}"
 
     return app
