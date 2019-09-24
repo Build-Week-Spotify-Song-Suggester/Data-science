@@ -73,6 +73,10 @@ def create_app():
             print(df.head())
         return df
 
+    @app.route('/')
+    def index():
+        return "Spotifier Recommender API is Working"
+
     @app.route('/api', methods=['POST'])
     def api():
 
