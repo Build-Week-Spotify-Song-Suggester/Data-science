@@ -11,6 +11,36 @@ For the Data Science portion of this application, we used this Kaggle [Spotify A
 
 ## API Endpoint 
 
+`POST`
+
+API Endpoint:  https://spotifier-recommender-api.herokuapp.com/api
+
+Do a POST request with:
+
+```
+{"Searched_Song":"2RM4jf1Xa9zPgMGRDiht8O"}
+```
+
+Where `"Searched_Song"` is the `Track Id`, and returns `Track Ids` of 10 similar songs.
+
+Returns
+
+```
+{
+  "Nearest_Song1": "27j0DacqVJQh0zfeT3ro04",
+  "Nearest_Song10": "5W0TmFbf99HsjItflpvu2y",
+  "Nearest_Song2": "0v2ho4OPJppOu3JXtuiNWG",
+  "Nearest_Song3": "1wDVA4RdRktGUj1PO9UWry",
+  "Nearest_Song4": "1JueotTuCnkcTA7tBA5hLR",
+  "Nearest_Song5": "6gL8GtFF83CljrwbTOWTYa",
+  "Nearest_Song6": "0xOMrILs6M1Xf9uoihYRy7",
+  "Nearest_Song7": "68CcjsUbRVus2F1MlcvHTx",
+  "Nearest_Song8": "0i9ctiWzDtHBuL19lVXv8t",
+  "Nearest_Song9": "2OIZgCdPVPHAV8ZJAkEmAI",
+  "Searched_Song": "2RM4jf1Xa9zPgMGRDiht8O",
+  "index": 0
+}
+```
 
 
 ## Logs
