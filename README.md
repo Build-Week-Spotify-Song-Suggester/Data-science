@@ -41,7 +41,12 @@ Returns
   "index": 0
 }
 ```
+## Visual Representationss of What Our ML Model is doing
+![Alt text](data/Screen Shot 2019-09-24 at 7.36.21 PM.png)
 
+![Alt text](data/Screen Shot 2019-09-24 at 7.36.39 PM.png)
+
+![Alt text](data/Flowchart.png)
 
 ## Logs
 
