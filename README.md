@@ -42,11 +42,13 @@ Returns
 }
 ```
 ## Visual Representationss of What Our ML Model is doing
-![Alt text](data/Screen Shot 2019-09-24 at 7.36.21 PM.png)
+![Alt text](https://github.com/Build-Week-Spotify-Song-Suggester/Data-science/blob/master/data/Screen%20Shot%202019-09-24%20at%207.36.21%20PM.png)
 
-![Alt text](data/Screen Shot 2019-09-24 at 7.36.39 PM.png)
+![Alt text](https://github.com/Build-Week-Spotify-Song-Suggester/Data-science/blob/master/data/Screen%20Shot%202019-09-24%20at%207.36.39%20PM.png)
 
-![Alt text](data/Flowchart.png)
+![Alt text](https://github.com/Build-Week-Spotify-Song-Suggester/Data-science/blob/master/data/Screen%20Shot%202019-09-24%20at%207.37.05%20PM.png)
+
+![Alt text](https://github.com/Build-Week-Spotify-Song-Suggester/Data-science/blob/master/data/Screen%20Shot%202019-09-24%20at%207.37.52%20PM.png)
 
 ## Logs
 
