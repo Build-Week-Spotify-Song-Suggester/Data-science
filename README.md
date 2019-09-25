@@ -50,6 +50,16 @@ Returns
 
 ![Alt text](https://github.com/Build-Week-Spotify-Song-Suggester/Data-science/blob/master/data/Screen%20Shot%202019-09-24%20at%207.37.52%20PM.png)
 
+## Song Selections along with 200 Song Recommendations Based on 
+Notice how they generally follow the same trajectory along the path across the features, naturally with a few outliers
+This is helping to Visually convey how Songs are recommended based on songs nearest to it in terms of quantifable Audio Features such as accoustiness, danceability, energy etc.
+![Alt text](https://github.com/Build-Week-Spotify-Song-Suggester/Data-science/blob/master/data/newplot.png)
+
+![Alt text](https://github.com/Build-Week-Spotify-Song-Suggester/Data-science/blob/master/data/newplot1.png)
+
+![Alt text](https://github.com/Build-Week-Spotify-Song-Suggester/Data-science/blob/master/data/newplot2.png)
+
+
 ## Logs
 
 - 2019-09-21 - Started explanatory notebooks
