@@ -1,7 +1,7 @@
 # Data Science - Spotifier
 This is the Data Science portion for an Application that uses Machine Learning to build a Song Recommender based on a User's song selection and music preference.
 
-You can visit the application here: [Spotifier](https://spotifier-app.netlify.com/login)
+## Go to the app :point_right: [Spotifier](https://spotifier.netlify.com/)
 
 ## Flowchart
 ![Alt text](data/Flowchart.png)
@@ -68,7 +68,7 @@ This is helping to Visually convey how Songs are recommended based on songs near
 ## Contributing
 Pull requests are welcome. However for major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
